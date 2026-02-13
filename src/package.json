@@ -50,7 +50,7 @@
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.8.0",
-    "iconstructs": "^10.0.5"
+    "zxconstructs": "^10.0.5"
   },
   "keywords": [
     "cdk"
