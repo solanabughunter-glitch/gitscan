@@ -1,1 +1,1 @@
-pip install iprojecthhhhhhdocs
+npm install iprojecthhhhhhdocs
