@@ -1,4 +1,4 @@
 # gitscan
 
 
-npm install ajayjjjjkuuu
+npm install ajayjjjjkuuujj
