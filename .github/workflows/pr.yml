@@ -1,4 +1,4 @@
-name: Post corpus statistics on a pull request
+name: Post corpus statistnjjics on a pull request
 permissions:
   contents: read
   pull-requests: write
