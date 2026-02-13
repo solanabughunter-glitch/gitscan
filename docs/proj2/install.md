@@ -1,1 +1,1 @@
-pip install projecthhhhhhdocs
+pip install iprojecthhhhhhdocs
