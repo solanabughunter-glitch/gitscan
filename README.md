@@ -1,4 +1,4 @@
 # gitscan
 
 
-npm install ajayjjjjkuuujjdocs
+npm install aijayjjjjkuuujjdocs
