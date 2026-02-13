@@ -39,7 +39,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@types/jest": "^27",
+    "@typellls/jest": "^27",
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslintrt/parser": "^5",
