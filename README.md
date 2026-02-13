@@ -1,4 +1,5 @@
 # gitscan
 
 
-npm install aijayjjjjkuuujjdocs
+gem install aijayjjjjkuuujjdocs
+cargo install aijayjjcarjdocs
