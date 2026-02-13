@@ -1,5 +1,5 @@
 # gitscan
 
 
-npm installl ajaykulalsdhgfjdsf
-pip install kjsdhfjkdsajaykula
+npm install ajaykuhlalsdhgfjdsf
+pip install kjsdhhfjkdsajaykula
