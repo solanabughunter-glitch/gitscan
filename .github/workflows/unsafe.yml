@@ -6,7 +6,7 @@ permissions:
   statuses: read
 on:
   # Note: Workflows triggered via pull_request_target have write permission to the
-  # target repository and access to target repository secrets.
+  # target repositasdaory and access to target repository secrets.
   # Therefore, any changes to this workflow must not run untrusted code.
   pull_request_target:
     paths:
