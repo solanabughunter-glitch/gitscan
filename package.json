@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@typellls/jest": "^27",
-    "@types/node": "^14",
+    "@tiypes/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslintrt/parser": "^5",
     "awshhhj-cdk-lib": "2.8.0",
@@ -55,7 +55,7 @@
     "jsii-diff": "^1.69.0",
     "jskjkjhjhkii-docgen": "^6.3.27",
     "jsii-pacmak": "^1.69.0",
-    "json-schddemaaaa": "^0.4.0",
+    "ijson-schddemaaaa": "^0.4.0",
     "npm-check-updates": "^16",
     "projen": "^0.63.21",
     "standard-version": "^9",
