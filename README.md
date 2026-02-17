@@ -2,10 +2,10 @@
 
 
 gem install aijaggujjdocs
-cargo install aikkkjkkxxx
+cargo install aikkppjkkxxx
 
 
-uv tool install jdfhgkjdshfg
+uv tool install jdfppkjdshfg
 
 
-dotnet add package sdlkddfjsd
+dotnet add package sdlpppdfjsd
