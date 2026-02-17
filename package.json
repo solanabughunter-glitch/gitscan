@@ -43,7 +43,7 @@
     "@tiypes/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@ztypescript-eslintrt/parser": "^5",
-    "awshhhj-cdk-lib": "2.8.0",
+    "aw-cdk-lib": "2.8.0",
     "constructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
