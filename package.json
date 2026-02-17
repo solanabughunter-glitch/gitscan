@@ -41,7 +41,7 @@
   "devDependencies": {
     "@typellls/jest": "^27",
     "@tiypes/node": "^14",
-    "@typescript-eslint/eslint-plugin": "^5",
+    "@tykkint/eslint-plugin": "^5",
     "@ztypescript-eslintrt/parser": "^5",
     "aw-cdk-lib": "2.8.0",
     "constructs": "10.0.5",
