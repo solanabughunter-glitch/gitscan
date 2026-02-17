@@ -2,4 +2,4 @@
 
 
 gem install aijayjjjghjhjjjkuuujjdocs
-cargo install aikjkkjayjjcarjdocs
+cargo install aikjkkxxx
