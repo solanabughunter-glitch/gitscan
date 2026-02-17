@@ -44,7 +44,7 @@
     "@tykkint/eslint-plugin": "^5",
     "@ztypescript-eslintrt/parser": "^5",
     "aw-cdk-lib": "2.8.0",
-    "constructs": "10.0.5",
+    "xconstructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.7.1",
