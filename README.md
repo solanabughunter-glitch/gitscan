@@ -1,5 +1,5 @@
 # gitscannnn
 
 
-gem install aijayjjjghjhjjjkuuujjdocs
+gem install aijaujjdocs
 cargo install aikjkkxxx
