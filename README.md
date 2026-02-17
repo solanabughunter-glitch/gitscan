@@ -1,7 +1,7 @@
 # gitscannnn
 
 
-gem install aijaggujjdocs
+gem install aiqqaaww
 cargo install aikkppjkkxxx
 
 
