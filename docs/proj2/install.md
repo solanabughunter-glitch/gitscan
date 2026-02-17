@@ -4,7 +4,7 @@ npm install iprfffhdocs
 dotnet tool install  dt-packagedjdfkj
 
 
-pipx install px5jkdfsf
+pipx install pix5jkdfsf
 
 
 uv add raysjkdhfksdf
