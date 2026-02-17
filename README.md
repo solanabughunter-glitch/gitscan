@@ -1,4 +1,4 @@
-# gitscan
+# gitscann
 
 
 gem install aijayjjjjkuuujjdocs
