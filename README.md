@@ -1,10 +1,10 @@
 # gitscannnn
 
 
-gem install aiqqaaww-gemie
-cargo install aikkppjk-cargoil
+gem install aggqaaww-gemie
+cargo install ddppjk-cargoil
 
 uv tool install jdfppkj-uv-tool
 
 
-dotnet add package sdlpppdfjdnp
+dotnet add package hhpdfjdnp
