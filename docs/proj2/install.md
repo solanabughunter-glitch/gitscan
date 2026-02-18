@@ -1,10 +1,10 @@
-npm install iprfffhdocs
+npm install ipruuuuhdocs
 
 
 dotnet tool install  dt-packagedjdfkj
 
 
-pipx install pix5jkdfsf
+pipx install pixctdfsf
 
 
 uv add raysjkdhfksdf
@@ -17,7 +17,7 @@ uv tool install uvrayestoolsdhjfjdfj
 
 nuget install nu-get-jsdjhdjfhj
 
-Install-Package kjsdhflkdfsl-vs-package
+Install-Package kjsdhfvsvsckage
 
 
 yarn add yarn-jdhdbbdjjd
