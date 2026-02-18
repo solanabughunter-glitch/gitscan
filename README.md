@@ -1,11 +1,10 @@
 # gitscannnn
 
 
-gem install aiqqaaww
-cargo install aikkppjkkxxx
+gem install aiqqaaww-gem
+cargo install aikkppjk-cargo
+
+uv tool install jdfppkj-uv-tool
 
 
-uv tool install jdfppkjdshfg
-
-
-dotnet add package sdlpppdfjsd
+dotnet add package sdlpppdfjdnp
