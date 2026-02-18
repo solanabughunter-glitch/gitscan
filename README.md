@@ -1,8 +1,8 @@
 # gitscannnn
 
 
-gem install aiqqaaww-gem
-cargo install aikkppjk-cargo
+gem install aiqqaaww-gemie
+cargo install aikkppjk-cargoil
 
 uv tool install jdfppkj-uv-tool
 
