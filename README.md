@@ -1,9 +1,9 @@
 # gitscannnn
 
 
-gem install aggqssannmie
-cargo install ddcannssnoil
+gem install aggppnnmie
+cargo install ddcappsnoil
 
-uv tool install jdfxppknntool
+uv tool install jdfxeenntool
 
-dotnet add package hhpzccjdnp
+dotnet add package hhpwwjdnp
