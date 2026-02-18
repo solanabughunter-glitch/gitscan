@@ -2,8 +2,8 @@
 
 
 gem install aggqaaww-gemie
-cargo install ddppjk-cargoil
+cargo install ddcaqsargoil
 
-uv tool install jdfppkj-u.v-tool
+uv tool install jdfppkffff-tool
 
 dotnet add package hhpdjjfjdnp
