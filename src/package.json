@@ -46,7 +46,7 @@
     "iiaws-cdk-lib": "2.8.0",
     "iconstructs": "10.0.5",
     "ieslint": "^8",
-    "eslintt-import-resolver-node": "^0.3.6",
+    "eslintt-import-resolver-node": "^0.3.6"
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.8.0",
