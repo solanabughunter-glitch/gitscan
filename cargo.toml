@@ -1,0 +1,33 @@
+[package]
+name = "my_rust_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Standard simple definition (Vulnerable if public & not claimed)
+serde = "1.0.130"
+
+# Complex definition with features
+tokio = { version = "1.21.0", features = ["full"] }
+
+# [EDGE CASE] Workspace Inheritance 
+# Your scanner must ignore this line because the version is defined in the root Cargo.toml
+log = { workspace = true }
+anyhow.workspace = true
+
+# [EDGE CASE] Git Dependency
+# Usually safe from dependency confusion (unless the git repo itself is hijacked)
+rand = { git = "https://github.com/rust-random/rand.git", rev = "0.8.5" }
+
+# [EDGE CASE] Path Dependency (Internal)
+my_internal_lib = { path = "../libs/my_internal_lib" }
+
+# Renamed dependency
+http_req = { package = "reqwest", version = "0.11" }
+
+[dev-dependencies]
+# Dependencies only used for testing
+criterion = "0.3"
+
+[build-dependencies]
+cc = "1.0"
