@@ -1,9 +1,9 @@
 # gitscannnn
 
 
-gem install aggccmie
-cargo install ddcaaappsnoil
+gem install taggccmie
+cargo install tpsnoil
 
-uv tool install jdfxeenaantool
+uv tool install tnaantool
 
-dotnet add package hhpwppiwjdnp
+dotnet add package tppiwjdnp
