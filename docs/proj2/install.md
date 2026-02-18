@@ -4,12 +4,13 @@ npm install ipruuuuh-npm
 dotnet tool install  dt-packagedjdti
 
 
-pipx install pixctdfsfpix
+pipx install pixctdfsfpixpix
 
 
 uv add raysjkdhfksdf-uv
 
 
+pip install mastermind-pipx
 
 uv tool install uvrayestoolsdhjfjdfj
 
