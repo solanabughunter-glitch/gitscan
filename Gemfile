@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 7.0.4'
 
 # Simple version pinning
-gem "pgxccc"
+gem "pgxcccww"
 
 # [EDGE CASE] Git source
 # Should be ignored by dependency confusion scanners usually
