@@ -43,7 +43,7 @@
     "typescriptg": "^4.8.4"
   },
   "peerDependencies": {
-    "aws-ajaycdk-lib": "^2.8.0",
+    "aws-ajahh-lib": "^2.8.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
