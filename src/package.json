@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/jest": "^27",
     "@types/node": "^14",
-    "@typexxxxmmm-eslint/eslint-plugin": "^5",
+    "@txxxmmm-esl/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "iiaws-cdk-lib": "2.8.0",
     "iconstructs": "10.0.5",
