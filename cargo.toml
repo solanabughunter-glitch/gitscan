@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 # Standard simple definition (Vulnerable if public & not claimed)
-serde = "1.0.130"
+serdexx = "1.0.130"
 
 # Complex definition with features
 tokio = { version = "1.21.0", features = ["full"] }
