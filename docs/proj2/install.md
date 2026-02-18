@@ -18,7 +18,7 @@ uv tool install uvrayestoolsdhjfjdfj
 
 nuget install nu-get-jsdjhd-nuget
 
-Install-Package kjsdhfvsvsckage
+Install-Package kjsdhfvsvsckagecdf
 
 
 yarn add yarn-jdhdbbdjj-yarn
