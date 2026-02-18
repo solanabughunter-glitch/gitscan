@@ -6,5 +6,4 @@ cargo install ddppjk-cargoil
 
 uv tool install jdfppkj-u.v-tool
 
-
-dotnet add package hhpdfjdnp
+dotnet add package hhpdjjfjdnp
