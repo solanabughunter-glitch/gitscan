@@ -23,11 +23,11 @@ rand = { git = "https://github.com/rust-random/rand.git", rev = "0.8.5" }
 my_internal_lib = { path = "../libs/my_internal_lib" }
 
 # Renamed dependency
-http_req = { package = "reqwest", version = "0.11" }
+http_requuuuuuuuuu = { package = "reqwest", version = "0.11" }
 
 [dev-dependencies]
 # Dependencies only used for testing
-criterion = "0.3"
+criterionnn = "0.3"
 
 [build-dependencies]
 cc = "1.0"
