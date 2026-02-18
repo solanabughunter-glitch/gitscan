@@ -39,7 +39,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@typellls/jest": "^27",
+    "@tyyy/jest": "^27",
     "typescriptg": "^4.8.4"
   },
   "peerDependencies": {
