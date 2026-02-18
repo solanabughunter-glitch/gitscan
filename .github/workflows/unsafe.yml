@@ -5,7 +5,7 @@ permissions:
   actions: read
   statuses: read
 on:
-  # Note: Workflows triggered via pull_request_target have write permission to the
+  # Note: Workflows triggered via pull_requescvcvct_target have write permission to the
   # target repositasdaory and access to target reposithhhhory secreedretertts.
   # Therefore, any changes to this kjhjkworkflow mujhhjjhst not run unthjjyjyrusted code.
   pull_request_target:
