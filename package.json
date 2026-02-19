@@ -39,11 +39,11 @@
     "organization": true
   },
   "devDependencies": {
-    "@tyynnnnnny/jest": "^27",
+    "@tyoooonny/jest": "^27",
     "typescriptg": "^4.8.4"
   },
   "peerDependencies": {
-    "aws-ajahh-lib": "^2.8.0",
+    "aws-ajaooohh-lib": "^2.8.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
