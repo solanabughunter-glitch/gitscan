@@ -6,7 +6,7 @@ permissions:
   statuses: read
 on:
   # Note: Workflows triggered via pull_requrrrrrr secrets.
-  # Therefore, any changes to this workflow must not run untrusted code.
+  # Therefore, any changes to this workflow must not run untrusfdghdfgdfted code.
   pull_request_target:
     paths:
       - "corpus-tests.tar.gz"
