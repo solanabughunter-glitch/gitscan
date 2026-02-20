@@ -1,0 +1,37 @@
+name: High Privileged Release (Uses Cache)
+
+on:
+  workflow_dispatch:
+
+# High privileges simulating a production deployment pipeline
+permissions:
+  contents: write
+  packages: write
+  id-token: write # Often used for cloud deployments (AWS/Azure/GCP)
+
+jobs:
+  release-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The vulnerability lies in blindly trusting this restored cache
+      - name: Restore node_modules Cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: linux-node-dependencies-v1
+
+      - name: Build and Deploy
+        run: |
+          echo "Running build scripts..."
+          # If the cache was poisoned, a malicious script injected into node_modules 
+          # (like a compromised bin script or a modified library) will execute here 
+          # with full access to this workflow's high-level permissions.
+          npm run build
