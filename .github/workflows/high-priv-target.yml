@@ -3,7 +3,7 @@ name: High Privileged Release (Uses Cache)
 on:
   workflow_dispatch:
 
-# High privileges simulating a production deployment pipeline
+# High privileges simulating a production deploymdfdsdent pipeline
 permissions:
   contents: write
   packages: write
