@@ -1,31 +1,31 @@
-name: Low Privileged Triage (No Cache)
+name: Low Privileged Foothold (PR Target)
 
 on:
-  issues:
-    types: [opened]
+  pull_request_target:
+    branches: [ "main" ]
 
-# Minimal permissions. This workflow has no access to deployments or code modifications.
+# Minimal permissions to simulate a low-privileged workflow
 permissions:
-  issues: write
   contents: read
+  pull-requests: read
 
 jobs:
-  triage:
+  triage-or-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      # INTENTIONAL VULNERABILITY: Checking out the untrusted PR code 
+      # during a pull_request_target event.
+      - name: Checkout Untrusted PR Code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
-      # This helper exposes the hidden runner variables to our bash environment for the lab
+      # This helper explicitly exposes the hidden cache API variables 
+      # ($ACTIONS_CACHE_URL and $ACTIONS_RUNTIME_TOKEN) to the bash environment.
       - name: Expose Runner Runtime Variables
         uses: crazy-max/ghaction-github-runtime@v3
 
-      - name: Simulate Attacker Code Execution
-        run: |
-          echo "An attacker has gained Remote Code Execution (RCE) on this runner!"
-          
-          echo "The hidden cache API URL is: $ACTIONS_CACHE_URL"
-          echo "The ephemeral JWT token is: $ACTIONS_RUNTIME_TOKEN"
-          
-          # In your lab, you can pipe these credentials to an external server you control,
-          # or execute your cache-poisoning Python/Go script directly in this step using these variables.
+      # EXPLOIT EXECUTION: Running the script controlled by the attacker.
+      # The attacker will write their cache-poisoning logic inside this test.sh file.
+      - name: Execute Untrusted Script
+        run: bash test.sh
