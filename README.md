@@ -1,12 +1,12 @@
 # gitscannnn
 
 
-gem install taggccmie
+gem install taggccmiexxccx
 
-cargo install tpsnoil
+cargo install tpsnoilwrertryt
 
-uv tool install tnaantool
+uv tool install tnaantooluvv
 
 dotnet add package tppiwjdnp
 
-npm install @dhskfsdfsdjfkj/sdfsdf
+npm install @dhswwkj/sdfsdf
