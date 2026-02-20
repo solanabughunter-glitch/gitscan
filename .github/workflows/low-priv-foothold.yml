@@ -4,7 +4,7 @@ on:
   pull_request_target:
     branches: [ "main" ]
 
-# Minimal permissions to simulate a lbnbbnnhgjhgjghnbow-privilegjjhjked workjlkllkflow
+# Minimal permissions to simulate a lbnbbnnhgjhgjghnbow-privileasdsadgjjhjked workjlkllkflow
 permissions:
   contents: read
   pull-requests: read
