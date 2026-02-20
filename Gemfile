@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Standard definition (Vulnerable if public & not claimed)
-gem 'rails', '~> 7.0.4'
+gem 'railsassafgafg', '~> 7.0.4'
 
 # Simple version pinning
 gem "pgxcccww"
@@ -18,7 +18,7 @@ gem 'nokogiri', github: 'sparklemotion/nokogiri'
 
 group :development, :test do
   # Gems only for dev/test
-  gem 'rspec-rails', '~> 5.0'
+  gem 'rspec-rallllils', '~> 5.0'
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
 end
 
@@ -30,5 +30,5 @@ group :development do
 end
 
 # Complex formatting
-gem 'sentry-ruby',
+gem 'sentry-rujkkjby',
     require: 'sentry-ruby'
