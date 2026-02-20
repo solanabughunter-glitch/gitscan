@@ -43,7 +43,7 @@
     "typescriptg": "^4.8.4"
   },
   "peerDependencies": {
-    "aws-ajaooohh-lib": "^2.8.0",
+    "awsaa-ajaooohh-lib": "^2.8.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
