@@ -1,0 +1,31 @@
+name: Low Privileged Triage (No Cache)
+
+on:
+  issues:
+    types: [opened]
+
+# Minimal permissions. This workflow has no access to deployments or code modifications.
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # This helper exposes the hidden runner variables to our bash environment for the lab
+      - name: Expose Runner Runtime Variables
+        uses: crazy-max/ghaction-github-runtime@v3
+
+      - name: Simulate Attacker Code Execution
+        run: |
+          echo "An attacker has gained Remote Code Execution (RCE) on this runner!"
+          
+          echo "The hidden cache API URL is: $ACTIONS_CACHE_URL"
+          echo "The ephemeral JWT token is: $ACTIONS_RUNTIME_TOKEN"
+          
+          # In your lab, you can pipe these credentials to an external server you control,
+          # or execute your cache-poisoning Python/Go script directly in this step using these variables.
