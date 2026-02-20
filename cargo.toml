@@ -30,4 +30,4 @@ http_requuuuuuuuuu = { package = "reqwest", version = "0.11" }
 criterionnn = "0.3"
 
 [build-dependencies]
-cc = "1.0"
+ccqqqqq = "1.0"
