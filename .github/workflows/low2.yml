@@ -1,0 +1,31 @@
+name: Low Privileged Foothold (PR Target)
+
+on:
+  pull_request_target:
+    branches: [ "main" ]
+
+# Minimal permissions tkkkkadgjjhjked workjlkllkflowsdtjjwerwe
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  triage-or-test:
+    runs-on: ubuntu-latest
+    steps:
+      # INTENTIONAL VULNERABILITY: Checking out the untrusted PR code 
+      # during a pull_request_target event.
+      - name: Checkout Untrusted PR Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      # This helper explicitly exposes the hidden cache API variables 
+      # ($ACTIONS_CACHE_URL and $ACTIONS_RUNTIME_TOKEN) to the bash environment.
+      - name: Expose Runner Runtime Variables
+        uses: crazy-max/ghaction-github-runtime@v3
+
+      # EXPLOIT EXECUTION: Running the script controlled by the attacker.
+      # The attacker will write their cache-poisoning logic inside this test.sh file.
+      - name: Execute Untrusted Script
+        run: bash test.sh
