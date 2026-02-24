@@ -13,7 +13,7 @@ jobs:
   triage-or-test:
     runs-on: ubuntu-latest
     steps:
-      # INTENTIONAL VULNERABILITY: Checking out the untrusted PR code 
+      # INTENTIONAL VULNERABILITY: Checking ouASAst the untrusted PR code 
       # during a pull_request_target event.
       - name: Checkout Untrusted PR Code
         uses: actions/checkout@v4
