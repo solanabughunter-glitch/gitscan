@@ -1,7 +1,7 @@
 # gitscannnn
 
 
-gem install tasssskkkk
+gem install tasssskkee
 
 cargo install tpslklopoipillll
 
