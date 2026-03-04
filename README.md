@@ -1,12 +1,12 @@
 # gitscannnn
 
 
-gem install tassss
+gem install tasssskkkk
 
-cargo install tpslklopoipi
+cargo install tpslklopoipillll
 
-uv tool install tnaantdfgdfooluvv
+uv tool install tnaantdfgdfooluvvyyy
 
-dotnet add package tppifwjdnp
+dotnet add package tppifwjdnpdfgff
 
-npm install @dhswfwkj/sdfsdf
+npm install @dhswfwwwwkj/sdfsdf
