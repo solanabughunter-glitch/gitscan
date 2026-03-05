@@ -1,4 +1,4 @@
-name: Low Privileged Foothold (PR Target)
+name: Low Privileged hhFoothold (PR Target)
 
 on:
   pull_request_target:
