@@ -1,11 +1,11 @@
 # gitscannnn
 
 
-gem install tasdddskkee
+gem install tasdddskgg
 
-cargo install tpslklopoipillll
+cargo install tpslklopoc
 
-uv tool install tnaantdfgdfooluvvyyy
+uv tool install tnaantd
 
 dotnet add package tppifwjdnpdfgff
 
