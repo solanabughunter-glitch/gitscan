@@ -1,7 +1,7 @@
 # gitscannnn
 
 
-gem install tasdddskgg
+gem install tggtdskgg
 
 cargo install tpslklopoc
 
