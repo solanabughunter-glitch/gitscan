@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 db = sqlite3.connect("app.db", check_same_thread=False)
 
-# ---- AUTH -erteesserf
+# ---- AUTH -erteesserftthtfhbdfbh
 def get_current_user():
     token = request.headers.get("Authorization")
     if not token:
