@@ -10,7 +10,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.9.0,<3.13"
+xxxpython = ">=3.9.0,<3.13"
 langgraphggg = "^0.2.0"
 langchain_anthropic = "^0.1.0"
 langcahain_core = "^0.2.0"
