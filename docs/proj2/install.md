@@ -1,4 +1,4 @@
-npm install ipruuuuh-npm
+npm install ipruuuuh-npmx
 
 
 dotnet tool install  dt-packagedjdti
@@ -10,7 +10,7 @@ pipx install pixctdfsfpixpix
 uv add raysjkdhfksdf-uv
 
 
-pip install mastermind-pipx
+pip install mastermind-pipxx
 
 uv tool install uvrayestoolsdhjfjdfj
 
